@@ -1,4 +1,9 @@
-@import "./styles/index.css";
+@import "./styles/Auth.css";
+@import "./styles/SideBar.css";
+@import "./styles/TopBar.css";
+@import "./styles/Dashboard.css";
+@import "./styles/UsersList.css";
+@import "./styles/UserLayout.css";
 
 .App {
   text-align: center;
