@@ -1,0 +1,97 @@
+.users-list {
+  background: white;
+  border: 1px solid #dfe0eb;
+  border-radius: 5px;
+  min-height: 200px;
+}
+.users-list-heading {
+  color: #252733;
+  align-items: center;
+  padding: 20px 32px;
+  display: flex;
+  font-size: 19px;
+}
+.avatar {
+  width: 40px;
+  height: 40px;
+}
+.avatar img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+.text-wrapper {
+  padding-left: 13px;
+  text-align: left;
+}
+
+.text {
+  font-size: 14px;
+}
+.updated {
+  font-size: 10px;
+  color: #b7b8be;
+}
+.tag {
+  background: red;
+  border-radius: 20px;
+  width: 45px;
+  font-size: 10px;
+  color: #fff;
+  padding: 2px 5px;
+  text-align: center;
+}
+table {
+  padding: 10px;
+}
+tr {
+  vertical-align: middle;
+}
+
+table thead {
+  color: #9fa2b4;
+  font-size: 14px;
+  text-align: left;
+}
+table tbody {
+  text-align: left;
+}
+.cell-padding {
+  padding: 10px 32px !important;
+}
+.info {
+  display: flex;
+  justify-content: end;
+  text-align: right;
+  font-size: 13px;
+  color: #b7b8be;
+  padding: 5px 20px;
+}
+
+.buttons {
+  cursor: pointer;
+}
+.buttons :hover {
+  color: teal;
+}
+.icons-wrapper {
+  display: flex;
+  font-size: 13px;
+  color: #9fa2b4;
+  font-weight: 600;
+  margin-left: auto;
+  padding-right: 20px;
+}
+.icon {
+  width: 15px;
+  height: 15px;
+}
+.icon img {
+  width: 100%;
+  height: 100%;
+}
+@media only screen and (max-width: 786px) {
+  .avatar {
+    width: 55px;
+  }
+} ;

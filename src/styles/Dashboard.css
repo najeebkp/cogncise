@@ -1,0 +1,42 @@
+.dashboard {
+  padding: 20px;
+}
+.dashboard-card {
+  background: #ffffff;
+  border: 1px solid #dfe0eb;
+  border-radius: 8px;
+  height: 135px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.card-number {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 50px;
+  text-align: center;
+  letter-spacing: 1px;
+  color: #252733;
+}
+.card-title {
+  font-size: 19px;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: 0.4px;
+  color: #9fa2b4;
+}
+.card-number.active {
+  color: #3751ff;
+}
+.dashboard-card.active {
+  border: 1px solid #3751ff;
+}
+.card-title.active {
+  color: #3751ff;
+}
+
+@media only screen and (max-width: 786px) {
+  .hstack {
+    flex-wrap: wrap;
+  }
+} ;
