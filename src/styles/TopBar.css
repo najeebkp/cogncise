@@ -1,7 +1,7 @@
 .top-bar {
   text-align: left;
   padding: 30px 20px;
-  margin-left: 255px;
+  margin-left: 255px !important;
 }
 .title {
   font-weight: 700;
