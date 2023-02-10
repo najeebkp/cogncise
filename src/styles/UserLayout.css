@@ -1,8 +1,0 @@
-.main-children {
-  margin-left: 255px !important;
-}
-@media only screen and (max-width: 786px) {
-  .main-children {
-    margin-left: 60px;
-  }
-} ;
